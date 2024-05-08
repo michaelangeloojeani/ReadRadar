@@ -1,0 +1,7 @@
+{
+  "name": "ReadRadars",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
