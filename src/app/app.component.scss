@@ -1,0 +1,14 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+ion-menu-content {
+    .ion-padding {
+      a {
+        display: block; /* Ensure links behave as block elements */
+        margin-bottom: 20px; /* Add margin bottom to create spacing between links */
+      }
+    }
+  }
+
+  
+  

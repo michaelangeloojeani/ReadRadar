@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <!-- Add 'ion-text-center' class to center align the title -->
-    <ion-title class="ion-text-center">
+    <ion-title class="ion-text-center" style="color: white;">
       ReadRadar
     </ion-title>
   </ion-toolbar>
@@ -11,15 +11,29 @@
   <ion-header collapse="condense">
     <ion-toolbar>
       <!-- Add 'ion-text-center' class to center align the title -->
-      <ion-title class="ion-text-center" size="large">ReadRadar</ion-title>
+      <ion-title class="ion-text-center" size="large" style="color: white;">ReadRadar</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <!-- Display the image across the screen -->
-  <img src="assets/books1.png">
+  <!-- Place the image within an Ion Card -->
+  <ion-card>
+    <!-- Adjust the size of the image with CSS -->
+    <img src="assets/icon/books1.png" style="width: auto; height: 70%;">
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="container" style="text-align: center;">
+    <!-- Apply font styles to the paragraph -->
+    <p style="font-family: 'Caveat', cursive; font-size: 2rem; color: white;">
+      “Reading is to the mind what exercise is to the body.” ― Joseph Addison
+    </p>
+  </div>
+
+  <!-- Move the link to the middle and style it -->
+  <div style="text-align: center; color: white; margin-top: 20px;">
+    <ion-item>
+      <ion-label>
+        <a href="/about-us">About Us</a>
+      </ion-label>
+    </ion-item>
   </div>
 </ion-content>

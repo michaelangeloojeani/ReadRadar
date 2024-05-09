@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent,
-  IonButton,} from '@ionic/angular/standalone';
+  IonButton,IonCard,IonLabel,IonItem} from '@ionic/angular/standalone';
 
 
 @Component({
@@ -9,7 +9,7 @@ import { IonHeader, IonToolbar, IonTitle, IonContent,
   styleUrls: ['home.page.scss'],
   standalone: true,
   imports: [IonHeader, IonToolbar, IonTitle, IonContent,
-    IonButton ],
+    IonButton, IonCard,IonLabel,IonItem ],
 })
 export class HomePage {
   constructor() {}

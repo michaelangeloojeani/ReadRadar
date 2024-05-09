@@ -8,3 +8,8 @@ ion-toolbar {
   --background: #ffffff; /* White color */
   --color: #000000; /* Black color for toolbar text */
 }
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent element */
+}
