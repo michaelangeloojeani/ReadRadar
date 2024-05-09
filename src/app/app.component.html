@@ -1,3 +1,25 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <!-- Side menu on the left -->
+  <ion-menu side="start" contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu Content</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">This is the menu content.</ion-content>
+  </ion-menu>
+
+  <!-- Main content area -->
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+
+  <!-- Toolbar with menu button -->
+  <ion-header>
+    <ion-toolbar>
+      <ion-title class="ion-text-center" style="font-family: 'Caveat', cursive;">ReadRadar</ion-title>
+      <ion-buttons slot="start">
+        <!-- Menu toggle button -->
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
 </ion-app>
