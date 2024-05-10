@@ -1,13 +1,53 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>action</ion-title>
+    <ion-title>Action</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">action</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <!-- First book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/actionbook1.png"></ion-img>
+          <ion-card-header>
+            <ion-card-title>The Hunger Games</ion-card-title>
+            <ion-card-subtitle>Suzanne Collins</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Second book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/actionbook2.png"></ion-img>
+          <ion-card-header>
+            <ion-card-title>The Maze Runner</ion-card-title>
+            <ion-card-subtitle>James Dashner</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            If you ain’t scared, you ain’t human. When Thomas wakes up in the lift, the only thing he can remember is his name. He’s surrounded by strangers—boys whose memories are also gone. Nice to meet ya, shank. Welcome to the Glade. Outside the towering stone walls that surround the Glade is a limitless, ever-changing maze. It’s the only way out—and no one’s ever made it through alive. Everything is going to change. Then a girl arrives. The first girl ever. And the message she delivers is terrifying. Remember. Survive. Run.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Third book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/actionbook3.png"></ion-img>
+          <ion-card-header>
+            <ion-card-title>Shōgun</ion-card-title>
+            <ion-card-subtitle>James Clavell</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            A bold English adventurer. An invincible Japanese warlord. A beautiful woman torn between two ways of life. All brought together in an extraordinary saga aflame with passion, conflict, ambition, and the struggle for power.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

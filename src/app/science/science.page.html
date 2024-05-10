@@ -1,13 +1,53 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>science</ion-title>
+    <ion-title>Science Fiction</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">science</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <!-- First book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/sciencebook1.png" class="genre-image"></ion-img>
+          <ion-card-header>
+            <ion-card-title>The Selfish Gene</ion-card-title>
+            <ion-card-subtitle>Richard Dawkins</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            "The Selfish Gene" caused a wave of excitement among biologists and the general public when it was first published in 1976. Its vivid rendering of a gene's eye view of life, in lucid prose, gathered together the strands of thought about the nature of natural selection into a conceptual framework with far-reaching implications for our understanding of evolution.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Second book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/sciencebook2.png" class="genre-image"></ion-img>
+          <ion-card-header>
+            <ion-card-title>Cosmos</ion-card-title>
+            <ion-card-subtitle>Carl Sagan</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            The story of fifteen billion years of cosmic evolution transforming matter and life into consciousness, of how science and civilisation grew up together, and of the forces and individuals who helped shape modern science. A story told with Carl Sagan's remarkable ability to make scientific ideas both comprehensible and exciting, based on his acclaimed television series.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Third book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/sciencebook3.png" class="genre-image"></ion-img>
+          <ion-card-header>
+            <ion-card-title>The Emperor of All Maladies: A Biography of Cancer</ion-card-title>
+            <ion-card-subtitle>Siddhartha Mukherjee</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            The Emperor of All Maladies is a magnificent, profoundly humane “biography” of cancer - from its first documented appearances thousands of years ago through the epic battles in the twentieth century to cure, control, and conquer it to a radical new understanding of its essence. Physician, researcher, and award-winning science writer, Siddhartha Mukherjee examines cancer with a cellular biologist’s precision, a historian’s perspective, and a biographer’s passion. The result is an astonishingly lucid and eloquent chronicle of a disease humans have lived with - and perished from - for more than five thousand years..
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

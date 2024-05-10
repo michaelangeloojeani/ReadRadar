@@ -1,13 +1,53 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>romance</ion-title>
+    <ion-title>Romance</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">romance</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <!-- First book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/romancebook1.png" class="genre-image"></ion-img>
+          <ion-card-header>
+            <ion-card-title>Pride and Prejudice</ion-card-title>
+            <ion-card-subtitle>Jane Austen</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Since its immediate success in 1813, Pride and Prejudice has remained one of the most popular novels in the English language. Jane Austen called this brilliant work "her own darling child" and its vivacious heroine, Elizabeth Bennet, "as delightful a creature as ever appeared in print." The romantic clash between the opinionated Elizabeth and her proud beau, Mr. Darcy, is a splendid performance of civilized sparring. And Jane Austen's radiant wit sparkles as her characters dance a delicate quadrille of flirtation and intrigue, making this book the most superb comedy of manners of Regency England.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Second book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/romancebook2.png" class="genre-image"></ion-img>
+          <ion-card-header>
+            <ion-card-title>The Notebook</ion-card-title>
+            <ion-card-subtitle>Nicholas Sparks</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Set amid the austere beauty of coastal North Carolina in 1946, The Notebook begins with the story of Noah Calhoun, a rural Southerner returned home from World War II. Noah, thirty-one, is restoring a plantation home to its former glory, and he is haunted by images of the beautiful girl he met fourteen years earlier, a girl he loved like no other. Unable to find her, yet unwilling to forget the summer they spent together, Noah is content to live with only memories...until she unexpectedly returns to his town to see him once again.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Third book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/romancebook3.png" class="genre-image"></ion-img>
+          <ion-card-header>
+            <ion-card-title>Outlander</ion-card-title>
+            <ion-card-subtitle>Diana Gabaldon</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            The year is 1945. Claire Randall, a former combat nurse, is just back from the war and reunited with her husband on a second honeymoon when she walks through a standing stone in one of the ancient circles that dot the British Isles. Suddenly she is a Sassenach—an “outlander”—in a Scotland torn by war and raiding border clans in the year of Our Lord...1743. Hurled back in time by forces she cannot understand, Claire is catapulted into intrigues and dangers that may threaten her life...and shatter her heart.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

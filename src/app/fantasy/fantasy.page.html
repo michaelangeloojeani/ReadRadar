@@ -1,13 +1,53 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>fantasy</ion-title>
+    <ion-title>Fantasy</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">fantasy</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <!-- First book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/fanbook2.png" class="genre-image"></ion-img>
+          <ion-card-header>
+            <ion-card-title>Harry Potter and the Philosopher's Stone</ion-card-title>
+            <ion-card-subtitle>J.K. Rowling</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Second book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/fanbook3.png" class="genre-image"></ion-img>
+          <ion-card-header>
+            <ion-card-title>The Hobbit</ion-card-title>
+            <ion-card-subtitle>J.R.R. Tolkien</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon. Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Third book -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-img src="assets/icon/fanbook1.png" class="genre-image"></ion-img>
+          <ion-card-header>
+            <ion-card-title>Eragon</ion-card-title>
+            <ion-card-subtitle>Christopher Paolini</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Fifteen-year-old Eragon believes that he is merely a poor farm boy—until his destiny as a Dragon Rider is revealed. Gifted with only an ancient sword, a loyal dragon, and sage advice from an old storyteller, Eragon is soon swept into a dangerous tapestry of magic, glory, and power. Now his choices could save—or destroy—the Empire.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
